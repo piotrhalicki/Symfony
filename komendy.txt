@@ -1,0 +1,1000 @@
+ 1000  sudo APC
+ 1001  sudo apc
+ 1002  cd //
+ 1003  cd opt
+ 1004  cd lampp
+ 1005  sudo ./manager-linux.run
+ 1006  cd htdocs
+ 1007  cd OOP
+ 1008  git status
+ 1009  git add Kalkulator.php
+ 1010  git add classCulator.php
+ 1011  git add classCulatorForm.php 
+ 1012  git add classCulatorTesty.php 
+ 1013  git status
+ 1014  git add RomanKonwerter.php 
+ 1015  git status
+ 1016  git commit -m "Dodany autoload dla porządku i formularz"
+ 1017  git push -u origin master
+ 1018  cd //
+ 1019  cd opt
+ 1020  cd lampp
+ 1021  sudo ./manager-linux.run
+ 1022  cd //
+ 1023  cd opt
+ 1024  cd lampp
+ 1025  sudo ./manager-linux.run
+ 1026  cd //
+ 1027  cd opt
+ 1028  cd lampp
+ 1029  sudo ./manager-linux.run
+ 1030  cd htdocs
+ 1031  cd OOP
+ 1032  git status
+ 1033  git add Kalkulator.php
+ 1034  git add RomanKonwerter.php 
+ 1035  git add classCulator.php 
+ 1036  git add main.js 
+ 1037  git status
+ 1038  git commit -m "Poprawiony wygląd i funkcjonalność"
+ 1039  git push -u origin master
+ 1040  cd htdocs
+ 1041  ls -la
+ 1042  java -jar silenium/
+ 1043  cd  silenium/
+ 1044  java -jar selenium-server-standalone-2.45.0.jar 
+ 1045  cd htdocs
+ 1046  cd selenium
+ 1047  cd silenium/
+ 1048  ls -la
+ 1049  cd htdocs
+ 1050  cd selenium
+ 1051  ls -la
+ 1052  curl -sS https://getcomposer.org/installer | php
+ 1053  ls -la
+ 1054  php composer.phar update
+ 1055  php composer.phar install
+ 1056  sudo apt-get install php5-curl
+ 1057  php composer.phar install
+ 1058  cd vendor
+ 1059  cd bin
+ 1060  ls -la
+ 1061  cd..
+ 1062  cd ..
+ 1063  ./vendor/bin/phpunit ./siteTest.php
+ 1064  clear
+ 1065  ./vendor/bin/phpunit ./siteTest.php
+ 1066  ./vendor/bin/phpunit ./siteTest2.php
+ 1067  cd htdocs
+ 1068  cd selenium/
+ 1069  java -jar selenium-server-standalone-2.45.0.jar 
+ 1070  cd //
+ 1071  cd opt
+ 1072  cd lampp
+ 1073  sudo ./manager-linux.run
+ 1074  cd //
+ 1075  cd lampp
+ 1076  cd opt
+ 1077  cd lampp
+ 1078  sudo ./manager-linux.run
+ 1079  sudo apt-get clean
+ 1080  sudo apt-get autoclean
+ 1081  sudo apt-get purge mysql-server*
+ 1082  sudo apt-get purge mysql-server
+ 1083  sudo apt-get purge apache2 php5-cli apache2-mpm-prefork apache2-utils apache2.2-common libapache2-mod-php5 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client mysql-common mysql-server php5-common php5-mysql phpmyadmin
+ 1084  sudo apt-get autoremove
+ 1085  sudo /opt/lampp/lampp stop
+ 1086  sudo rm -rf /opt/lampp 
+ 1087  apt-get purge apache2 php5 libapache2-mod-php5 mysql-server libapache2-mod-auth-mysql php5-mysql phpmyadmin
+ 1088  sudo apt-get purge apache2 php5 libapache2-mod-php5 mysql-server libapache2-mod-auth-mysql php5-mysql phpmyadmin
+ 1089  sudo rm -rf /etc/apache2
+ 1090  sudo rm -rf /etc/php5
+ 1091  sudo rm -rf /var/lib/mysql
+ 1092  sudo rm -rf /etc/mysql
+ 1093  sudo apt-get update
+ 1094  sudo apt-get install apache2
+ 1095  sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+ 1096  sudo mysql_install_db
+ 1097  sudo /usr/bin/mysql_secure_installation
+ 1098  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+ 1099  sudo apt-get install phpmyadmin
+ 1100  sudo php5enmod mcrypt
+ 1101  sudo service apache2 restart
+ 1102  sudo gedit /etc/apache2/apache2.conf
+ 1103  /etc/init.d/apache2 restart
+ 1104  mkdir ~/public_html
+ 1105  sudo chmod a+x ~/public_html
+ 1106  sudo chown -R www-data:www-data /home/$USER/public_html
+ 1107  sudo chmod -R 775 /home/$USER/public_html
+ 1108  ls -la
+ 1109  cd //
+ 1110  ls -la
+ 1111  cd home
+ 1112  ls -la
+ 1113  cd piotr
+ 1114  ls -la
+ 1115  sudo a2enmod userdir
+ 1116  sudo service apache2 restart
+ 1117  sudo gedit /etc/apache2/mods-available/php5.conf
+ 1118  gedit /etc/apache2/sites-available/000-default.conf
+ 1119  gedit /etc/apache2/sites-available/
+ 1120  cd /etc/apache2/sites-available/
+ 1121  ls -la
+ 1122  sudo gedit 000-default.conf 
+ 1123  sudo tail -f /var/log/apache2/error.log
+ 1124  cd //
+ 1125  cd home
+ 1126  cd piotr
+ 1127  ls -la
+ 1128  cd public_html/
+ 1129  touch index.php
+ 1130  cd ..
+ 1131  sudo chmod 777 public_html
+ 1132  ls -la
+ 1133  cd public_html/
+ 1134  touch index.php
+ 1135  php -v
+ 1136  mysql
+ 1137  mysql -h localhost -u root -p
+ 1138  sudo tail -f /var/log/apache2/error.log
+ 1139  mysql
+ 1140  sudo mysql
+ 1141  sudo mysql -u root -h localhost -p
+ 1142  sudo tail -f /var/log/apache2/error.log
+ 1143  pwd
+ 1144  cd public_html
+ 1145  ls -la
+ 1146  cd shOOP
+ 1147  ls -la
+ 1148  curl -sS https://getcomposer.org/installer | php
+ 1149  php composer.phar install
+ 1150  ls -la
+ 1151  ./vendor/bin/phpunit
+ 1152  ./vendor/bin/phpunit ./userTest.php
+ 1153  ./vendor/bin/phpunit ./testy/userTest.php
+ 1154  ./vendor/bin/phpunit ./tests/userTest.php
+ 1155  ./vendor/bin/phpunit ../../../tests/userTest.php
+ 1156  ./vendor/bin/phpunit ../../tests/userTest.php
+ 1157  cd vendor
+ 1158  cd bin
+ 1159  ./phpunit ../../tests/userTest.php
+ 1160  ./phpunit ../.././tests/userTest.php
+ 1161  cd ..
+ 1162  cd tests
+ 1163  ls -la
+ 1164  ../vendor/phpunit ./userTest.php 
+ 1165  ../vendor/bin/phpunit ./userTest.php 
+ 1166  cd ..
+ 1167  cd testy
+ 1168  ../vendor/bin/phpunit ./userTest.php 
+ 1169  clean
+ 1170  clear
+ 1171  ../vendor/bin/phpunit ./userTest.php 
+ 1172  mysql -h localhost -u root -p
+ 1173  mysql -u root -l localhost -p
+ 1174  mysql -u root -h localhost -p
+ 1175  pwd
+ 1176  cd public_html/
+ 1177  cd shOOP/
+ 1178  cd $
+ 1179  ls -la
+ 1180  git init
+ 1181  git status
+ 1182  git add connect.php
+ 1183  git add header.php 
+ 1184  git add footer.php 
+ 1185  git add composer.phar 
+ 1186  git add phpunit.xml 
+ 1187  mysql -h localhost -u root -p
+ 1188  git status
+ 1189  git add connect.php 
+ 1190  git add footer.php 
+ 1191  git add header.php 
+ 1192  git status
+ 1193  cd klasy/
+ 1194  git status
+ 1195  ls -la
+ 1196  git add user.php 
+ 1197  git status
+ 1198  cd ..
+ 1199  git status
+ 1200  git commit -m "pierwszy commit"
+ 1201  git remote add origin git@github.com:piotrhalicki/Sklep.git
+ 1202  git push -u origin master
+ 1203  sudo tail -f /var/log/apache2/error.log
+ 1204  mysql -u root -h localhost -p
+ 1205  cd public_html
+ 1206  cd shOOP/
+ 1207  git status
+ 1208  git add index.php 
+ 1209  git add header.php
+ 1210  git commit -m "drugi commit"
+ 1211  git push -u origin master
+ 1212  pwd
+ 1213  ../vendor/bin/phpunit ./userTest.php 
+ 1214  cd testy
+ 1215  ../vendor/bin/phpunit ./userTest.php 
+ 1216  cd..
+ 1217  cd ..
+ 1218  it status
+ 1219  git status
+ 1220  cd testy
+ 1221  git status
+ 1222  ls -la
+ 1223  git add userTest.php 
+ 1224  git add mydataset.xml 
+ 1225  cd ..
+ 1226  git status
+ 1227  git add footer.php 
+ 1228  git add header.php 
+ 1229  git index.php
+ 1230  git add klasy/user.php 
+ 1231  git add index.php
+ 1232  git add composer.json
+ 1233  git add logowanie.php 
+ 1234  git add profil.php 
+ 1235  git add rejestracja.php 
+ 1236  git add zalogowany.php 
+ 1237  git add zarejestrowany.php 
+ 1238  git status
+ 1239  cd testy/
+ 1240  git add phpunit.xml 
+ 1241  git commit -m "trzeci commit"
+ 1242  git push -u origin master
+ 1243  cd public_html
+ 1244  mkdir Symfony
+ 1245  cd Symfony
+ 1246  git init
+ 1247  git commit -m "trzeci commit"git clone git@bitbucket.org:marcin_kondera/coderslab_symfony2.git
+ 1248  git clone git@bitbucket.org:marcin_kondera/coderslab_symfony2.git
+ 1249  git remote add origin git@bitbucket.org:marcin_kondera/coderslab_symfony2.git
+ 1250  git clone git@bitbucket.org:marcin_kondera/coderslab_symfony2.git
+ 1251  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1252  git status
+ 1253  composer create-project symfony/framework-standard-edition
+ 1254  git clone git@bitbucket.org:marcin_kondera/coderslab_symfony2.git
+ 1255  clean
+ 1256  celar
+ 1257  clear
+ 1258  sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony
+ 1259  sudo chmod a+x /usr/local/bin/symfony
+ 1260  cd public_html/
+ 1261  mkdir symf
+ 1262  cd ymf
+ 1263  cd symf
+ 1264  symfony new coderslab_symfony2
+ 1265  php app/console server:run
+ 1266  sudo php app/console server:run
+ 1267  ls -la
+ 1268  cd coderslab_symfony2/
+ 1269  ls -la
+ 1270  cd app
+ 1271  ls -la
+ 1272  php app/console
+ 1273  php console
+ 1274  php console generate:bundle --help
+ 1275  php console generate:bundle --namespace=CLS/HelloWorldBundle
+ 1276  php console server:run
+ 1277  php console generate:controler -help
+ 1278  php console generate:controller -help
+ 1279  php console generate:controller --help
+ 1280  php console generate:controller --controller=CLSHelloWorld:Greetings
+ 1281  php console server:run
+ 1282  cd ..
+ 1283  php app/console server:run
+ 1284  cd ..
+ 1285  cd s
+ 1286  composer create-project symfony/framework-standard-edition
+ 1287  coderslab_symfony2
+ 1288  symfony new coderslab_symfony2
+ 1289  git add zarejestrowany.php 
+ 1290  ls -la
+ 1291  cd coderslab_symfony2/
+ 1292  ls -la
+ 1293  php console generate:bundle --namespace=CLS/HelloWorldBundle
+ 1294  cd app
+ 1295  ls -la
+ 1296  php console generate:bundle --namespace=CLS/HelloWorldBundle
+ 1297  php console router:debug
+ 1298  php app/console server:run
+ 1299  php console server:run
+ 1300  cd ..
+ 1301  cd symf
+ 1302  cd coderslab_symfony2/
+ 1303  php console server:run
+ 1304  php app/console server:run
+ 1305  cd ..
+ 1306  cd s
+ 1307  cd coderslab_symfony2/
+ 1308  php app/console server:run
+ 1309  php console generate:controller --controller=CLSHelloWorld:Greetings
+ 1310  php app/console generate:controller --controller=CLSHelloWorld:Greetings
+ 1311  php app/console generate:controller --controller=CLSHelloWorldBundle:Greetings
+ 1312  php app/console router:debug
+ 1313  php app/console config:debug
+ 1314  php app/console server:run
+ 1315  cd public_html/
+ 1316  cd s
+ 1317  ls -la
+ 1318  cd coderslab_symfony2/
+ 1319  ls -la
+ 1320  php app/console server:run
+ 1321  php app/console doctrine:generate:entity --help
+ 1322  php app/console doctrine:generate:entity --entity=CLSHelloWorldBundle:Person
+ 1323  php app/console doctrine:schema:update --force
+ 1324  php app/console doctrine:schema:update
+ 1325  php app/console doctrine:database:create
+ 1326  php app/console doctrine:schema:update --force
+ 1327  php app/console doctrine:generate:entities CLSHelloWorldBundle:Person
+ 1328  php app/console doctrine:schema:update --force
+ 1329  php app/console router:debug
+ 1330  php app/console config:debug
+ 1331  php app/console router:debug
+ 1332  ls -la
+ 1333  cd piotr
+ 1334  cd Home
+ 1335  pwd
+ 1336  cd Pulpit
+ 1337  ls -la
+ 1338  cd linux\ x32/
+ 1339  ls -la
+ 1340  cd.. 
+ 1341  cd ..
+ 1342  ls -la
+ 1343  cd ..
+ 1344  pwd
+ 1345  cd ..
+ 1346  cd opt
+ 1347  cd sublime_text/
+ 1348  ls - la
+ 1349  ls -la
+ 1350  sudo chmod 777 sublime_text 
+ 1351  cd ..
+ 1352  sudo chmod 777 sublime_text/
+ 1353  ls -la
+ 1354  cd sublime_text/
+ 1355  ls -la
+ 1356  rm sublime
+ 1357  rm sublime_text 
+ 1358  ls -la
+ 1359  sudo chmod 777 sublime_text
+ 1360  sudo chmod 777 .
+ 1361  ls -la
+ 1362  sudo chmod 777 ./
+ 1363  ls -la
+ 1364  sudo chmod 777 *
+ 1365  ls -la
+ 1366  cd public_html/
+ 1367  ls -la
+ 1368  cd ..
+ 1369  pwd
+ 1370  cd home
+ 1371  ls -la
+ 1372  cd piotr
+ 1373  cd Pulpit
+ 1374  cd kopie
+ 1375  ls -la
+ 1376  cd symfony
+ 1377  cd Symfony
+ 1378  ls -la
+ 1379  cd coderslab_symfony2/
+ 1380  php app/console server:run
+ 1381  ls -la
+ 1382  php app/console server:run
+ 1383  cd app
+ 1384  ls -la
+ 1385  php console server:run
+ 1386  cd ..
+ 1387  cd cd symf
+ 1388  cd symf
+ 1389  ls -la
+ 1390  cd coderslab_symfony2/
+ 1391  ls -la
+ 1392  php app/console server:run
+ 1393  M-t
+ 1394  pwd
+ 1395  cd public_html/
+ 1396  mkdir sym
+ 1397  cd sym
+ 1398  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1399  php console server:run
+ 1400  cd coderslab_symfony2/
+ 1401  php console server:run
+ 1402  php app/console server:run
+ 1403  ls -la
+ 1404  php app/console server:run
+ 1405  cd ..
+ 1406  mkdir mc
+ 1407  cd mc
+ 1408  git clone git://github.com/MidnightCommander/mc.git
+ 1409  ls -la
+ 1410  cd mc
+ 1411  install
+ 1412  ls -la
+ 1413  INSTALL
+ 1414  sudo INSTALL
+ 1415  apt-get install mc
+ 1416  sudo apt-get install mc
+ 1417  mc
+ 1418  clean
+ 1419  clear
+ 1420  cd ..
+ 1421  cd sym/
+ 1422  cd coderslab_symfony2/
+ 1423  ls -la
+ 1424  php app/console server:run
+ 1425  ls -la
+ 1426  cd app
+ 1427  php console server:run
+ 1428  cd ..
+ 1429  php console server:run
+ 1430  php app/console server:run
+ 1431  git checkout 732d4d4
+ 1432  php app/console server:run
+ 1433  tail -f app/logs/dev.log | grep -v -E ".DEBUG"
+ 1434  cd ..
+ 1435  tail -f app/logs/dev.log | grep -v -E ".DEBUG"
+ 1436  cd public_html/
+ 1437  cd sym/
+ 1438  cd coderslab_symfony2/
+ 1439  php app/console server:run
+ 1440  ls -la
+ 1441  composer create-project symfony/framework-standard-edition
+ 1442  coderslab_symfony2
+ 1443  cd ..
+ 1444  mkdir SSS
+ 1445  cd SSS
+ 1446  composer create-project symfony/framework-standard-edition
+ 1447  coderslab_symfony2
+ 1448  symfony new coderslab_symfony2
+ 1449  ls -la
+ 1450  git clone git://github.com/MidnightCommander/mc.git
+ 1451  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1452  cd ..
+ 1453  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1454  git checkout 732d4d4
+ 1455  ls -la
+ 1456  cd SSS
+ 1457  ls -la
+ 1458  cd ..
+ 1459  cd coderslab_symfony2/
+ 1460  php app/console server:run
+ 1461  cd ..
+ 1462  cd SYM
+ 1463  ls -la
+ 1464  cd SSS
+ 1465  cd coderslab_symfony2/
+ 1466  php app/console server:run
+ 1467  cd ..
+ 1468  git checkout 732d4d4
+ 1469  git init
+ 1470  git checkout 732d4d4
+ 1471  cd coderslab_symfony2/
+ 1472  ls -la
+ 1473  git checkout 732d4d4
+ 1474  cd ..
+ 1475  git checkout 732d4d4
+ 1476  cd coderslab_symfony2/
+ 1477  ls -la
+ 1478  cd coderslab_symfony2/
+ 1479  git checkout 732d4d4
+ 1480  cd ..
+ 1481  mkdir aaa
+ 1482  cd aaa
+ 1483  symfony new coderslab_symfony2
+ 1484  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1485  cd ..
+ 1486  mkdir
+ 1487  mkdir bbb
+ 1488  cd bbb
+ 1489  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1490  git checkout 732d4d4
+ 1491  git init
+ 1492  git checkout 732d4d4
+ 1493  git remote add origin git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1494  git remote add origin https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1495  git checkout 732d4d4
+ 1496  git clone -t 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1497  git clone -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1498  cd ..
+ 1499  mkdir
+ 1500  mkdir zzz
+ 1501  cd zzz
+ 1502  git clone -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1503  git -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1504  git checkout -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1505  git -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1506  git -b 732d4d4
+ 1507  cd public_html/
+ 1508  mkdir xxx
+ 1509  cd xxx
+ 1510  git clone -b 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1511  git checkout
+ 1512  git checkout -man
+ 1513  git checkout -h
+ 1514  git checkout -732d4d4
+ 1515  git checkout -m "Symfony 2 usunięcie DEMO bundli"
+ 1516  git init
+ 1517  git checkout -m "Symfony 2 usunięcie DEMO bundli"
+ 1518  git remote add origin https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1519  git fetch origin
+ 1520  git status
+ 1521  git diff
+ 1522  git checkout 732d4d4
+ 1523  ls -la
+ 1524  cd app
+ 1525  php app/console server:run
+ 1526  cd app
+ 1527  php console server:run
+ 1528  git log
+ 1529  git checkout 732d4d4
+ 1530  git commit -m "1"
+ 1531  git status
+ 1532  vi console
+ 1533  git revert 732d4d4
+ 1534  php console server:run
+ 1535  cd public_html/
+ 1536  cd xxx
+ 1537  ls -la
+ 1538  php app/console server:run
+ 1539  cd src
+ 1540  ls -la
+ 1541  cd ..
+ 1542  mkdir OOO
+ 1543  cd ..
+ 1544  mkdir OOO
+ 1545  cd OOO
+ 1546  cd ..
+ 1547  cd xxx
+ 1548  php app/console server:run
+ 1549  cd ..
+ 1550  cd ooo
+ 1551  cd OOO/
+ 1552  symfony new coderslab_symfony2
+ 1553  git checkout 732d4d4
+ 1554  php app/console server:run
+ 1555  ls -la
+ 1556  cd coderslab_symfony2/
+ 1557  php app/console server:run
+ 1558  git clone 732d4d4 https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1559  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1560  git checkout 732d4d4
+ 1561  ls -ahl
+ 1562  mc
+ 1563  git checkout 732d4d4
+ 1564  php app/console server:run
+ 1565  cd ..
+ 1566  mkdir test
+ 1567  cd test
+ 1568  symfony new coderslab_symfony2
+ 1569  ls -la
+ 1570  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1571  cd ..
+ 1572  mkdir
+ 1573  mkdir test2
+ 1574  cd test2
+ 1575  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1576  symfony new coderslab_symfony2
+ 1577  cd public_html/
+ 1578  cd OOO/
+ 1579  cd coderslab_symfony2/
+ 1580  php app/console server:run
+ 1581  cd ..
+ 1582  mkdir Book
+ 1583  symfony new Book
+ 1584  ls -la
+ 1585  cd Book
+ 1586  ls -la
+ 1587  php app/console generate:bundle --namespace CLSBookBundle
+ 1588  php app/console generate:bundle --namespace CLSBookShelfBundle
+ 1589  ls -la
+ 1590  php app/console server:run
+ 1591  php app/console generate:controller --controller=CLSBookShelfBundle:AuthorController
+ 1592  php app/console generate:controller --controller=CLSBookShelfBundle:BookController
+ 1593  php app/console generate:controller --controller=CLSBookShelfBundle:AuthorController
+ 1594  php console
+ 1595  php app/console
+ 1596  php app/console doctrine:generate:entity --entity=CLSBookShelfBundle:Author
+ 1597  php app/console doctrine:generate:entity --entity=CLSBookShelfBundle:Book
+ 1598  php app/console router:debug
+ 1599  php app/console doctrine:generate:entities CLSBookShelfBundle:Author
+ 1600  php app/console doctrine:generate:entities CLSBookShelfBundle:Book
+ 1601  php app/console doctrine:schema:update --force
+ 1602  php app/console doctrine:schema:update
+ 1603  php app/console doctrine:database:create
+ 1604  php app/console doctrine:schema:update --force
+ 1605  php app route:debug
+ 1606  php app router:debug
+ 1607  php app/console router:debug
+ 1608  php app/console server:run
+ 1609  php app/console router:debug
+ 1610  mc
+ 1611  ./console
+ 1612  console | grep asset
+ 1613  php console assets:install
+ 1614  console 
+ 1615  php console assets:install --symlink
+ 1616  cd ..
+ 1617  php app/console assets:install --symlink
+ 1618  php app/console :run
+ 1619  php app/console assetic:watch
+ 1620  php app/console assetic:dump --env=dev
+ 1621  php app/console :run
+ 1622  mc
+ 1623  cd public_html/
+ 1624  cd Book/
+ 1625  php app/console :run
+ 1626  php app/console doctrine:generate form --h
+ 1627  php app/console doctrine:generate:form 
+ 1628  php app/console doctrine:generate:form entity
+ 1629  php app/console doctrine:generate:form CLSBookShelfBundle:Author
+ 1630  php app/console doctrine:generate:form CLSBookShelfBundle:Book
+ 1631  php app/console doctrine:generate:entities CLSBookShelfBundle:Author
+ 1632  php app/console doctrine:generate:form CLSBookShelfBundle:Book
+ 1633  php app/console doctrine:generate:entities CLSBookShelfBundle:Author
+ 1634  php app/console doctrine:generate:entities CLSBookShelfBundle:Book
+ 1635  php app/console router:debug
+ 1636  php app/console :run
+ 1637  php app/console doctrine:schema:update --force
+ 1638  php app/console doctrine:schema:update
+ 1639  php app/console router:debug
+ 1640  cd public_html/
+ 1641  cd Book/
+ 1642  php app/console :run
+ 1643  mc
+ 1644  php app/console router:debug
+ 1645  cd public_html/
+ 1646  mkdir warsz
+ 1647  symfony new Symfony2Workshop
+ 1648  ls -la
+ 1649  cd symf
+ 1650  cd Symfony
+ 1651  cd Symfony2Workshop/
+ 1652  LS -LA
+ 1653  ls -la
+ 1654  sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony
+ 1655  ls -la
+ 1656  php app/console :run
+ 1657  php app/console generate:doctrine:entity
+ 1658  php app/console router:debug
+ 1659  cd ..
+ 1660  cd SymfonyWorkshop/
+ 1661  php app/console router:debug
+ 1662  php app/console :run
+ 1663  clear
+ 1664  ls -la
+ 1665  cd ..
+ 1666  php app/console router:debug
+ 1667  ls -la
+ 1668  cd Symfony
+ 1669  php app/console router:debug
+ 1670  cd ..
+ 1671  cd Symfony
+ 1672  ls -la
+ 1673  cd vendor
+ 1674  ls -la
+ 1675  cd ..
+ 1676  ls -la
+ 1677  curl -sS https://getcomposer.org/installer | php
+ 1678  php composer.phar update
+ 1679  ls -la
+ 1680  mc
+ 1681  php composer.phar install
+ 1682  ext-curl
+ 1683  curl
+ 1684  php composer.phar install
+ 1685  curl -sS https://getcomposer.org/installer | php
+ 1686  php composer.phar install
+ 1687  cd public_html/
+ 1688  cd Symfony2Workshop/
+ 1689  php app/console :run
+ 1690  cd ..
+ 1691  mkdir Workshop
+ 1692  cd Workshop/
+ 1693  git clone -b "2.4-LayoutChange" https://github.com/Ajdija/Symfony2Workshop.git
+ 1694  ls -la
+ 1695  cd Symfony2Workshop/
+ 1696  php app/console :run
+ 1697  cd..
+ 1698  cd ..
+ 1699  symfony new Symfony
+ 1700  ls -la
+ 1701  cd Symfony
+ 1702  php app/console :run
+ 1703  git clone -b "4.0-TestsConfigurationPHPUnit" https://github.com/Ajdija/Symfony2Workshop.git
+ 1704  php app/console :run
+ 1705  git clone -b "4.1-ImageControllerTest" https://github.com/Ajdija/Symfony2Workshop.git
+ 1706  ls -la
+ 1707  cd src
+ 1708  mc
+ 1709  cd ..
+ 1710  cd bin
+ 1711  ls -la
+ 1712  mc
+ 1713  cd ..
+ 1714  cd vendor
+ 1715  cd bin
+ 1716  phpunit ../../src/Acme/ImageBundle/Tests/Controller/ImageControllerTest.php
+ 1717  sudo phpunit ../../src/Acme/ImageBundle/Tests/Controller/ImageControllerTest.php
+ 1718  mc
+ 1719  cd ..
+ 1720  ls -la
+ 1721  cd phpunit
+ 1722  ls -la
+ 1723  phpunit ../../src/Acme/ImageBundle/Tests/Controller/ImageControllerTest.php
+ 1724  phpunit
+ 1725  ls
+ 1726  cd ../..
+ 1727  ls
+ 1728  /bin/phpunit
+ 1729  cd bin
+ 1730  ls
+ 1731  cd ..
+ 1732  ls
+ 1733  subl composer.json
+ 1734  php composer.json install
+ 1735  php composer.phar install
+ 1736  curl -sS https://getcomposer.org/installer | php
+ 1737  php composer.phar install
+ 1738  mc
+ 1739  ./phpunit.php
+ 1740  ./phpunit
+ 1741  phpunit
+ 1742  cd ..
+ 1743  mkdir w
+ 1744  cd w
+ 1745  symfony new s
+ 1746  ls -la
+ 1747  cd s
+ 1748  ls -la
+ 1749  php composer.json install
+ 1750  curl -sS https://getcomposer.org/installer | php
+ 1751  php composer.phar install
+ 1752  git clone https://bitbucket.org/marcin_kondera/coderslab_symfony2.git
+ 1753  ls -la
+ 1754  cd coderslab_symfony2/
+ 1755  ls -la
+ 1756  php app/console :run
+ 1757  https://github.com/Ajdija/Symfony2Workshop.git
+ 1758  git clone -b “ETAP” https://github.com/Ajdija/Symfony2Workshop.git
+ 1759  git clone -b "4.2-ImageValidationTest" https://github.com/Ajdija/Symfony2Workshop.git
+ 1760  cd ..
+ 1761  cd public_html/
+ 1762  ls -la
+ 1763  mkdir q
+ 1764  cd q
+ 1765  git clone -b "4.2-ImageValidationTest" https://github.com/Ajdija/Symfony2Workshop.git
+ 1766  mkdir q
+ 1767  cd q
+ 1768  symfony new s
+ 1769  cd ..
+ 1770  cd piotr
+ 1771  ls -la
+ 1772  cd home
+ 1773  cd piotr
+ 1774  cd public_html/
+ 1775  ls -la
+ 1776  cd q
+ 1777  ls -la
+ 1778  cd Symfony2Workshop/
+ 1779  php app/console :run
+ 1780  php app/console router:debug
+ 1781  php app/console :run
+ 1782  cd ..
+ 1783  ls -la
+ 1784  mkdir new
+ 1785  cd new
+ 1786  git clone -b "4.2-ImageValidationTest" https://github.com/Ajdija/Symfony2Workshop.git
+ 1787  cd ..
+ 1788  mkdir new2
+ 1789  symfony new s
+ 1790  cd new2
+ 1791  symfony new s
+ 1792  ls -la
+ 1793  cd s
+ 1794  ls -la
+ 1795  php app/console :run
+ 1796  php app/console router:debug
+ 1797  ls -la
+ 1798  php composer.phar require friendsofsymfony/user-bundle "~2.0@dev"
+ 1799  ls -la
+ 1800  cd ..
+ 1801  curl -sS https://getcomposer.org/installer | php
+ 1802  php composer.phar require friendsofsymfony/user-bundle "~2.0@dev"
+ 1803  php composer.json install
+ 1804  php composer.phar install
+ 1805  ls -la
+ 1806  cd s
+ 1807  ls -la
+ 1808  php composer.phar require friendsofsymfony/user-bundle "~2.0@dev"
+ 1809  curl -sS https://getcomposer.org/installer | php
+ 1810  php composer.phar require friendsofsymfony/user-bundle "~2.0@dev"
+ 1811  php composer.phar require sonata-project/admin-bundle
+ 1812  curl
+ 1813  curl --help
+ 1814  cd ..
+ 1815  mkdir bla
+ 1816  symfony new foo
+ 1817  cd foo
+ 1818  ls -la
+ 1819  curl -sS https://getcomposer.org/installer | php
+ 1820  ls -la
+ 1821  mc
+ 1822  php composer.phar
+ 1823  php composer.phar install
+ 1824  php composer.phar update
+ 1825  cd ..
+ 1826  mkdir bar
+ 1827  cd bar
+ 1828  touch composer.json
+ 1829  vi composer.json
+ 1830  php composer.phar install
+ 1831  curl -sS https://getcomposer.org/installer | php
+ 1832  php composer.phar install
+ 1833  vi composer.json
+ 1834  php composer.phar install
+ 1835  composer create-project symfony/framework-standard-edition
+ 1836  composer create-project symfony/framework-standard-editioncoderslab_symfony2
+ 1837  sudo curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony
+ 1838  sudo chmod a+x /usr/local/bin/symfony
+ 1839  symfony new kotopcja
+ 1840  php kotopcja/app/check.php
+ 1841  mc
+ 1842  php --ini
+ 1843  subl /etc/php5/cliphp.ini
+ 1844  subl /etc/php5/cli/php.ini
+ 1845  php kotopcja/app/check.php
+ 1846  sudo service apache2 restart
+ 1847  php kotopcja/app/check.php
+ 1848  subl /etc/php5/cli/php.ini
+ 1849  php kotopcja/app/check.php
+ 1850  sudo service apache2 restart
+ 1851  php kotopcja/app/check.php
+ 1852  sudo apt-get install php5-intl
+ 1853  sudo service apache2 restart
+ 1854  php kotopcja/app/check.php
+ 1855  cd kotopcja
+ 1856  ls -la
+ 1857  cd vendor
+ 1858  ls -la
+ 1859  cd ..
+ 1860  app/console :run
+ 1861  curl -sS https://getcomposer.org/installer | php
+ 1862  php composer.phar update
+ 1863  mc
+ 1864  mc
+ 1865  sudo apt-get install php5-cur1
+ 1866  sudo apt-get install php5-curl
+ 1867  sudo process apache2 restart
+ 1868  sudo service apache2 restart
+ 1869  pwd
+ 1870  cd public_html/
+ 1871  cd kotopcja/
+ 1872  php composer.phar update
+ 1873  cd vendor/
+ 1874  ls -la
+ 1875  mkdir
+ 1876  mkdir piatek
+ 1877  rm piatek
+ 1878  rm -r  piatek
+ 1879  ls -la
+ 1880  symfony new piatek
+ 1881  cd piatek
+ 1882  ls -la
+ 1883  git clone -b "5.0-KodZWarsztatow" https://github.com/Ajdija/Symfony2Workshop.git
+ 1884  ls -la
+ 1885  cd ..
+ 1886  ls -la
+ 1887  cd public_html/
+ 1888  symfony new piatek
+ 1889  cd piatek/
+ 1890  git clone -b "5.0-KodZWarsztatow" https://github.com/Ajdija/Symfony2Workshop.git
+ 1891  ls -la
+ 1892  php app/console server:run
+ 1893  curl -sS https://getcomposer.org/installer | php
+ 1894  php composer.phar update
+ 1895  php app/console server:run
+ 1896  php app/console router:debug
+ 1897  php app/console router:debug
+ 1898  app/console doctrine:schema:update
+ 1899  app/console doctrine:schema:update --force
+ 1900  app/console --h
+ 1901  php app/console router:debug
+ 1902  php app/console cache:clear --env=prod
+ 1903  php app/console server:run --env=prod
+ 1904  php app/console server:run
+ 1905  php app/console server:run --env=prod
+ 1906  php app/console cache:clear --env=prod
+ 1907  php app/console server:run --env=prod
+ 1908  php app/console cache:clear --env=prod
+ 1909  php app/console server:run --env=prod
+ 1910  php app/console cache:clear --env=prod
+ 1911  php app/console server:run --env=prod
+ 1912  php app/console cache:clear --env=prod
+ 1913  php app/console server:run --env=prod
+ 1914  php app/console server:run
+ 1915  cd public_html/
+ 1916  ls -la
+ 1917  mkdir symfony
+ 1918  rm -r symfony
+ 1919  symfony new symfony
+ 1920  cd symfony/
+ 1921  curl -sS https://getcomposer.org/installer | php
+ 1922  php composer.phar update
+ 1923  git init
+ 1924  ls -la
+ 1925  vi >gitignore
+ 1926  vi .gitignore
+ 1927  git status
+ 1928  git add .
+ 1929  git status
+ 1930  git commit -m "Czysty projekt do nauki"
+ 1931  git status
+ 1932  git remote add origin git@github.com:piotrhalicki/Symfony.git
+ 1933  git push -u origin master
+ 1934  man ls
+ 1935  man sudo
+ 1936  ls -h
+ 1937  ls --help
+ 1938  visudo
+ 1939  sudo visudo
+ 1940  visudo
+ 1941  sudo visudo
+ 1942  visudo
+ 1943  cd public_html/
+ 1944  cd kotopcja/
+ 1945  mc
+ 1946  whoami
+ 1947  visudo
+ 1948  sudo visudo
+ 1949  visudo
+ 1950  sudo visudo
+ 1951  sudo su
+ 1952  visudo
+ 1953  man visudo
+ 1954  sudo visudo
+ 1955  sudo adduser piotr sudo
+ 1956  visudo
+ 1957  nautilus
+ 1958  man nautilus
+ 1959  nautilus --h
+ 1960  nautilus --help
+ 1961  visudo
+ 1962  sudo visudo
+ 1963  visudo
+ 1964  sudo su
+ 1965  visudo
+ 1966  app/console router:debug
+ 1967  groups piotr
+ 1968  cd public_html/
+ 1969  ls -la
+ 1970  cd symfony
+ 1971  app/console server:run
+ 1972  history | more
+ 1973  history | more > komendy.txt
+ 1974  ls -la
+ 1975  vi komendy.txt 
+ 1976  php app/console generate:bundle --namespace PJR/KotopcjaBundle
+ 1977  php app/console doctrine:generate:entity --entity=PJR/KotcepcjaBundle:Users
+ 1978  ls -la
+ 1979  php app/console doctrine:generate:entity --entity=PJR/KotopcjaBundle:Users
+ 1980  php app/console doctrine:generate:entity --entity=PJRKotopcjaBundle:Users
+ 1981  php app/console doctrine:database:create
+ 1982  php app/console doctrine:schema:update --force
+ 1983  php app/console geerate:doctrine:crud --entity=KotopcjaBundle:Users
+ 1984  php app/console generate:doctrine:crud --entity=KotopcjaBundle:Users
+ 1985  php app/console generate:doctrine:crud --entity=PJRKotopcjaBundle:Users
+ 1986  php app/console doctrine:generate:entities PJR/KotopcjaBundle:Users
+ 1987  php app/console doctrine:generate:entities PJRKotopcjaBundle:Users
+ 1988  app/console doctrine:schema:update
+ 1989  php app/console router:debug
+ 1990  php app/console doctrine:database:create
+ 1991  php app/console casche:crear --env=dev
+ 1992  php app/console cache:crear --env=dev
+ 1993  php app/console cache:clear --env=dev
+ 1994  php app/console assets:install --symlink
+ 1995  app/console
+ 1996  php app/console assetic:dump --env=dev
+ 1997  php app/console server:run
+ 1998  php app/console router:debug
+ 1999  history | more > komendy.txt

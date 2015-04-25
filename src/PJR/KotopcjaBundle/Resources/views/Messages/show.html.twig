@@ -1,0 +1,44 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Messages</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>Messagefrom</th>
+                <td>{{ entity.messageFrom }}</td>
+            </tr>
+            <tr>
+                <th>Messageto</th>
+                <td>{{ entity.messageTo }}</td>
+            </tr>
+            <tr>
+                <th>Messagecontents</th>
+                <td>{{ entity.messageContents }}</td>
+            </tr>
+            <tr>
+                <th>Messagedate</th>
+                <td>{{ entity.messageDate|date('Y-m-d H:i:s') }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('messages') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('messages_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

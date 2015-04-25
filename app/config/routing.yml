@@ -1,3 +1,8 @@
+pjr_kotopcja:
+    resource: "@PJRKotopcjaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
